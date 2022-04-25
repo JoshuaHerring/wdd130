@@ -1,0 +1,11 @@
+p {
+    font-size: 300%;
+    color: darkgreen;
+    text-align: center;
+}
+
+.smallParagraph {
+    font-size: 50%;
+    color: brown;
+    text-align: left;
+}
