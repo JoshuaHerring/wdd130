@@ -1,0 +1,56 @@
+body{
+    background-color: #FCA6C9 ;
+}
+
+.pagesstuff
+{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.coolfont
+{
+    font-family: Arial, sans-serif;
+}
+
+.white
+{
+    color: white; 
+}
+
+.smallfont
+{
+    font-size: 95%;
+}
+
+.pagesstuff ol
+{
+    font-weight: bold;
+    text-align: left;
+    line-height: 200%;
+}
+
+.image
+{
+    width: 125px;
+}
+
+.big
+{
+    font-size: 200%;
+}
+
+.mark::before
+{
+    content: '❝';
+}
+
+.mark::after
+{
+    content: '❝'
+}
+h1:hover
+{
+    color: black;
+}
