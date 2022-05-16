@@ -1,0 +1,46 @@
+h1
+{
+    text-align: center;
+    margin: 0;
+}
+
+#top
+{
+    background-color: red;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3%;
+}
+
+#middle
+{
+    background-color: blue;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 6%;
+}
+
+#bottom
+{
+    background-color: green;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 9%;
+}
+
+label
+{
+    
+}
+
+#left
+{
+    background-color: white;
+    margin-left: 10%;
+}
+
+#right
+{
+    margin-left: 90%;
+    background-color: blue;
+}
