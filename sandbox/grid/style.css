@@ -1,0 +1,46 @@
+
+#header
+{
+    grid-area: header;
+    background-color: blue ;
+}
+
+#left
+{
+    grid-area: left;
+    background-color: red;
+}
+
+#right
+{
+    grid-area: right;
+    background-color: yellow;
+}
+
+#main
+{
+    grid-area: main;
+    background-color: pink;
+}
+#footer
+{
+    grid-area: footer;
+    background-color: black;
+}
+
+
+#grid
+{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,100px);
+    grid-template-areas: 
+    "header header header header header header header"
+    "left main main main main main right"
+    "left main main main main main right"
+    "left main main main main main right"
+    "left main main main main main right"
+    "left main main main main main right"
+    "left footer footer footer footer footer footer"
+}
