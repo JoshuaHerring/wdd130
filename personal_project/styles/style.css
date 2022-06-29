@@ -1,9 +1,98 @@
-img
+/* Header start */
+header
 {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+    background-color: #0D5C63;
 }
 
-.logo
+#header_logo
 {
-    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
 }
+
+#home_header
+{
+    color: #FCFFFC;
+    margin: auto;
+}
+
+#intrest_header
+{
+    margin: auto;
+    color: #FCFFFC;
+}
+
+#events_header
+{
+    margin: auto;
+    color: #FCFFFC;
+}
+
+/* Header Finish */
+
+/* Body start */
+
+body
+{
+    background-color: #6D3D14;
+    margin: 0%;
+    text-align: center;
+    color: #FCFFFC;
+}
+
+img
+{
+    width: 40%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Body finish */
+
+/* Footer start */
+
+footer
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+    background-color: #0D5C63;
+}
+
+#home_footer
+{
+    color: #FCFFFC;
+    margin: auto;
+}
+
+#intrest_footer
+{
+    color: #FCFFFC;
+    margin: auto;
+}
+
+#events_footer
+{
+    color: #FCFFFC;
+    margin: auto;
+}
+
+#site_plan_footer
+{
+    color: #FCFFFC;
+    margin: auto;
+}
+
+#logo_footer
+{
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
+}
+/* Footer finsih */
