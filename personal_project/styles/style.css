@@ -2,16 +2,18 @@
 header
 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px;
     background-color: #0D5C63;
+    font-size: 125%;
+    margin: 0 auto;
 }
 
 #header_logo
 {
     margin: auto;
     border-radius: 50%;
-    width: 40%;
+    width: 35%;
 }
 
 #home_header
@@ -53,6 +55,11 @@ img
     display: block;
 }
 
+p
+{
+    font-size: 120%;
+}
+
 /* Body finish */
 
 /* Footer start */
@@ -60,9 +67,10 @@ img
 footer
 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px;
     background-color: #0D5C63;
+    font-size: 125%;
 }
 
 #home_footer
@@ -93,7 +101,7 @@ footer
 {
     margin: auto;
     border-radius: 50%;
-    width: 40%;
+    width: 35%;
 }
 /* Footer finsih */
 
@@ -104,6 +112,7 @@ button
     background-color: transparent;
     color: white;
     border: none;
+    font-size: 100%;
 }
 button:hover
 {
